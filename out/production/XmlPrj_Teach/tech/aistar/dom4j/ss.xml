@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students><student id="1"><name>tom</name><no>1001</no><birthday>2019-04-22</birthday><address><province>江苏</province><city>苏州</city></address></student><student id="2"><name>tom</name><no>1002</no><birthday>2019-04-22</birthday></student><student id="3"><name>jack</name><no>1003</no><birthday>2019-04-22</birthday></student></students>

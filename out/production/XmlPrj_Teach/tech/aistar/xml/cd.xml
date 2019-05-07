@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycd>
+    <cd id="001">
+        <artist>张学友</artist>
+        <year>1998</year>
+        <company>滚石唱片</company>
+        <music>17</music>
+    </cd>
+    <cd id="002">
+        <artist>李代沫</artist>
+        <year>2012</year>
+        <company>中国好声音</company>
+        <music>10</music>
+    </cd>
+</mycd>

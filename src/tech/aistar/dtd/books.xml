@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE books SYSTEM "books_0_1.dtd">
+<books>
+    <book id="1001">
+        <name>西游记</name>
+        <author>吴承恩</author>
+        <price>100.0</price>
+        <bookinfo>
+            <publish_house>人民出版社</publish_house>
+            <publish_date>2012-01-01</publish_date>
+            <pages>100</pages>
+            <description>这是神话小说</description>
+        </bookinfo>
+    </book>
+    <book id="1002">
+        <name>红楼梦</name>
+        <author>曹雪芹</author>
+        <price>100.0</price>
+    </book>
+    <book id="1003">
+        <name>三国演义</name>
+        <author>罗贯中</author>
+        <price>100.0</price>
+        <bookinfo>
+            <publish_house>工业出版社</publish_house>
+            <publish_date>2010-09-09</publish_date>
+            <pages>200</pages>
+            <description>这是三国小说</description>
+        </bookinfo>
+    </book>
+</books>

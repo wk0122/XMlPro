@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns - xml namespace - xml命名空间 - 唯一的-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/student_1_0"
+        xmlns:tns="http://www.example.org/student_1_0"
+        elementFormDefault="qualified">
+    <!--根标记-->
+    <element name="students">
+        <!--复杂类型 - 自定义的类型-->
+        <complexType>
+            <!--控制元素出现的次数-->
+            <sequence minOccurs="1" maxOccurs="unbounded">
+                <!--students下存在一个student元素
+                    元素都是存在类型的.使用属性type来声明
+                -->
+                <element name="student" type="tns:StuType"/>
+            </sequence>
+        </complexType>
+    </element>
+    <!--对student的类型StuType进行详细的解释-->
+    <complexType name="StuType">
+        <sequence>
+            <!--schema中是允许存在类型的.-->
+            <element name="name" type="string"/>
+            <element name="no" type="string"/>
+            <element name="birthday" type="date"/>
+            <!--自定义类型的address元素-->
+            <element name="address" type="tns:AddrType"/>
+        </sequence>
+        <!--出现在student标签中的-->
+        <attribute name="id" type="int" use="required"></attribute>
+    </complexType>
+    <!--对address元素进行详细的解释-->
+    <complexType name="AddrType">
+        <sequence>
+            <!--出现在address标签中-->
+            <element name="province" type="string"/>
+            <element name="city" type="string"/>
+        </sequence>
+    </complexType>
+</schema>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<moudles id="1001" isfree="true">
+    <moudle>这是一个moudle标签</moudle>
+    <name>这是一个name标签</name>
+</moudles>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE games SYSTEM "games.dtd">
+<games>
+    <game id="1002" isfree="true">
+        <name>1001</name>
+        <company>腾讯</company>
+        <year>2000</year>
+        <type>游戏</type>
+    </game>
+    <game id="1002">
+        <name>1002</name>
+        <company>腾讯</company>
+        <year>2000</year>
+        <type>游戏</type>
+    </game>
+</games>

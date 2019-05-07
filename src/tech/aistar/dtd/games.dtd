@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT games (game)+>
+<!ELEMENT game (name, company, year, type)>
+<!ATTLIST game id CDATA #REQUIRED>
+<!ATTLIST game isfree CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
